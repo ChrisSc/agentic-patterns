@@ -1,3 +1,3 @@
-[submodule "templates/agentic-orchestrator-worker-template"]
-	path = templates/agentic-orchestrator-worker-template
-	url = git@github.com:ChrisSc/agentic-orchestrator-worker-template.git
+[submodule "templates/prompt-chaining"]
+	path = templates/prompt-chaining
+	url = git@github.com:ChrisSc/prompt-chaining.git
