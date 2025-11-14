@@ -1,6 +1,6 @@
 # Agentic Patterns
 
-A central collection of production-ready agentic workflow templates for building AI-powered applications with Claude.
+A central collection of turn-key agentic workflow templates for building AI-powered applications with Claude.
 
 ## What Are Agentic Patterns?
 
@@ -8,7 +8,7 @@ Agentic patterns are reusable, well-architected blueprints for AI workflows. The
 
 ## Key Features
 
-- **Production-Ready Templates**: Complete, tested implementations ready for deployment
+- **Turn-Key Templates**: Complete, tested implementations ready to deploy immediately
 - **GitHub Repository Templates**: Use the "Use this template" button to create a new repository
 - **Comprehensive Documentation**: Each pattern includes architecture guides, configuration strategies, and examples
 - **Observable & Measurable**: Token tracking, cost logging, and structured JSON logging included
@@ -81,7 +81,7 @@ Not sure which pattern to use? Check [PATTERNS.md](./PATTERNS.md) for a decision
 ## Contributing
 
 We welcome new agentic patterns that solve real-world problems. Patterns should:
-- Be production-ready with comprehensive tests
+- Be turn-key implementations with comprehensive tests
 - Include detailed documentation (README, ARCHITECTURE, examples)
 - Demonstrate clear value over ad-hoc implementations
 - Follow the quality standards established by existing patterns

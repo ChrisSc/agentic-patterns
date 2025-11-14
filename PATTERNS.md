@@ -2,7 +2,7 @@
 
 ## Introduction to Agentic Patterns
 
-Agentic patterns are reusable, production-ready architectural blueprints for building AI workflows with observability, efficiency, and quality built in. Rather than building ad-hoc solutions for each AI application, patterns provide proven structures that:
+Agentic patterns are reusable, turn-key architectural blueprints for building AI workflows with observability, efficiency, and quality built in. Rather than building ad-hoc solutions for each AI application, patterns provide proven structures that:
 
 - **Improve Observability**: Built-in logging, token tracking, and cost analysis
 - **Enable Optimization**: Per-component tuning (e.g., different models at different steps)
@@ -18,7 +18,7 @@ This collection exists to help you build better AI applications faster by learni
 
 **Category**: Sequential Orchestration
 **Location**: [`./templates/prompt-chaining/`](./templates/prompt-chaining/)
-**Status**: Production-ready
+**Status**: Turn-key ready
 
 #### Overview
 
@@ -203,7 +203,7 @@ Once you've identified the right pattern category, consider:
 We welcome contributions of new agentic patterns. To propose a pattern:
 
 1. **Start with Documentation**: Describe the pattern, its use cases, and why it's valuable
-2. **Provide a Reference Implementation**: A complete, tested, production-ready template
+2. **Provide a Reference Implementation**: A complete, tested, turn-key template
 3. **Include Comprehensive Docs**: README, architecture guide, examples, and benchmarks
 4. **Demonstrate Value**: Show performance, cost, or capability advantages
 
