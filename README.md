@@ -50,7 +50,7 @@ Perfect for document summarization, content generation, or data extraction. See 
 
 A three-step workflow where each step builds on the previous: analyze user intent, process with the appropriate model, and synthesize a polished response. Includes per-step model configuration, validation gates, and comprehensive cost/performance tracking.
 
-- **Location**: [`./templates/prompt-chaining/`](./templates/prompt-chaining/)
+- **Location**: [`./templates/prompt-chaining/`](https://github.com/ChrisSc/prompt-chaining/tree/e450ae11e9a614e9bef7873a10adcf3375c3acb8)
 - **When to use**: Document analysis, content generation, data extraction, decision support
 - **Key feature**: Validation gates between steps ensure quality
 - **Cost**: $0.006–$0.018 per request depending on configuration
@@ -77,16 +77,6 @@ Each template is a complete, standalone repository included as a git submodule.
 ## Pattern Selection
 
 Not sure which pattern to use? Check [PATTERNS.md](./PATTERNS.md) for a decision framework and comparison guide.
-
-## Contributing
-
-We welcome new agentic patterns that solve real-world problems. Patterns should:
-- Be turn-key implementations with comprehensive tests
-- Include detailed documentation (README, ARCHITECTURE, examples)
-- Demonstrate clear value over ad-hoc implementations
-- Follow the quality standards established by existing patterns
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
 
 ## License
 
