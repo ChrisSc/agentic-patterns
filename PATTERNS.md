@@ -111,7 +111,7 @@ Use a balanced or accuracy-optimized configuration depending on content quality 
 **Category**: Parallel Orchestration
 **Status**: Coming soon
 
-For tasks involving parallel independent operationssuch as processing multiple documents simultaneously, running different analyses on the same input, or coordinating multiple specialized agentsthe orchestrator-worker pattern provides a foundation.
+For tasks involving parallel independent operations—such as processing multiple documents simultaneously, running different analyses on the same input, or coordinating multiple specialized agents—the orchestrator-worker pattern provides a foundation.
 
 **Key differences from prompt-chaining**:
 - Parallel execution of independent subtasks
@@ -127,8 +127,8 @@ Use this decision tree to choose the right pattern:
 
 ### Question 1: Are your steps sequential or parallel?
 
-- **Sequential (each step depends on previous)** � Prompt-Chaining
-- **Parallel (steps are independent)** � Orchestrator-Worker
+- **Sequential (each step depends on previous)** � Prompt-Chaining
+- **Parallel (steps are independent)** � Orchestrator-Worker
 
 ### Question 2: Key considerations
 
@@ -171,14 +171,14 @@ Once you've identified the right pattern category, consider:
 
 ### Cost Management
 
-- Token usage is logged per stepidentify which steps consume most resources
+- Token usage is logged per step—identify which steps consume most resources
 - Consider model downgrading (e.g., Haiku for analysis phases)
 - Batch process when possible to amortize initialization costs
 - Monitor cost trends and set up alerts for anomalies
 
 ### Testing & Quality
 
-- Each pattern includes a test suiterun it before deploying
+- Each pattern includes a test suite—run it before deploying
 - Test with representative real-world inputs
 - Validate that quality gates are appropriately tuned
 - Use the benchmarking tools provided to establish baselines
@@ -192,7 +192,7 @@ Once you've identified the right pattern category, consider:
 
 ### Documentation
 
-- Each pattern is extensively documentedread the architecture guide
+- Each pattern is extensively documented—read the architecture guide
 - Keep your configuration choices documented for future maintainers
 - Document any custom validation rules or step customizations
 
