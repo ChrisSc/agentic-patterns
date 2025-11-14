@@ -17,7 +17,7 @@ This collection exists to help you build better AI applications faster by learni
 ### Prompt-Chaining: Sequential Task Decomposition
 
 **Category**: Sequential Orchestration
-**Location**: [`./templates/prompt-chaining/`](./templates/prompt-chaining/)
+**Location**: [https://github.com/ChrisSc/prompt-chaining](https://github.com/ChrisSc/prompt-chaining)
 **Status**: Turn-key ready
 
 #### Overview
@@ -81,11 +81,11 @@ Each step can be individually configured with different models, temperature, max
 
 #### Getting Started
 
-1. **Quick Start**: See [`templates/prompt-chaining/README.md`](./templates/prompt-chaining/README.md)
-2. **Configuration Guide**: Read [`templates/prompt-chaining/PROMPT-CHAINING.md`](./templates/prompt-chaining/PROMPT-CHAINING.md) for detailed tuning strategies
-3. **Architecture Deep Dive**: [`templates/prompt-chaining/ARCHITECTURE.md`](./templates/prompt-chaining/ARCHITECTURE.md) explains the technical implementation
-4. **Performance Data**: [`templates/prompt-chaining/BENCHMARKS.md`](./templates/prompt-chaining/BENCHMARKS.md) shows real-world performance metrics
-5. **Authentication**: [`templates/prompt-chaining/JWT_AUTHENTICATION.md`](./templates/prompt-chaining/JWT_AUTHENTICATION.md) for securing your API
+1. **Quick Start**: See the [README.md](https://github.com/ChrisSc/prompt-chaining/blob/main/README.md) in the repository
+2. **Configuration Guide**: Read [PROMPT-CHAINING.md](https://github.com/ChrisSc/prompt-chaining/blob/main/PROMPT-CHAINING.md) for detailed tuning strategies
+3. **Architecture Deep Dive**: [ARCHITECTURE.md](https://github.com/ChrisSc/prompt-chaining/blob/main/ARCHITECTURE.md) explains the technical implementation
+4. **Performance Data**: [BENCHMARKS.md](https://github.com/ChrisSc/prompt-chaining/blob/main/BENCHMARKS.md) shows real-world performance metrics
+5. **Authentication**: [JWT_AUTHENTICATION.md](https://github.com/ChrisSc/prompt-chaining/blob/main/JWT_AUTHENTICATION.md) for securing your API
 
 #### Example Configuration Recipe: Customer Support Automation
 

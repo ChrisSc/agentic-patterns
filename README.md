@@ -20,18 +20,18 @@ Agentic patterns are reusable, well-architected blueprints for AI workflows. The
 
 - Python 3.10 or higher
 - Anthropic API key (for Claude access)
-- Git with support for submodules
+- Git (for cloning repositories)
 
 ### Using a Template
 
-**Option 1: Clone with submodules**
-```bash
-git clone --recurse-submodules https://github.com/ChrisSc/agentic-patterns.git
-cd agentic-patterns/templates/prompt-chaining
-```
+**Option 1: Use GitHub's template button**
+Navigate to [prompt-chaining](https://github.com/ChrisSc/prompt-chaining) and click "Use this template" to create your own repository.
 
-**Option 2: Use GitHub's template button**
-Navigate to the template repository and click "Use this template" to create your own repository.
+**Option 2: Clone directly**
+```bash
+git clone https://github.com/ChrisSc/prompt-chaining.git
+cd prompt-chaining
+```
 
 ### Example: Prompt-Chaining Pattern
 
@@ -41,7 +41,7 @@ The prompt-chaining pattern breaks complex tasks into three sequential steps:
 Analyze → Process → Synthesize
 ```
 
-Perfect for document summarization, content generation, or data extraction. See the [Prompt-Chaining template](./templates/prompt-chaining/) for a complete working example.
+Perfect for document summarization, content generation, or data extraction. See the [Prompt-Chaining template](https://github.com/ChrisSc/prompt-chaining) for a complete working example.
 
 ## Available Patterns
 
@@ -50,7 +50,6 @@ Perfect for document summarization, content generation, or data extraction. See 
 
 A three-step workflow where each step builds on the previous: analyze user intent, process with the appropriate model, and synthesize a polished response. Includes per-step model configuration, validation gates, and comprehensive cost/performance tracking.
 
-- **Location**: [`./templates/prompt-chaining/`](https://github.com/ChrisSc/prompt-chaining/tree/e450ae11e9a614e9bef7873a10adcf3375c3acb8)
 - **When to use**: Document analysis, content generation, data extraction, decision support
 - **Key feature**: Validation gates between steps ensure quality
 - **Cost**: $0.006–$0.018 per request depending on configuration
@@ -64,15 +63,10 @@ agentic-patterns/
 ├── README.md                           # This file
 ├── PATTERNS.md                         # Pattern catalog and selection guide
 ├── LICENSE.md                          # MIT License
-└── templates/
-    └── prompt-chaining/                # Prompt-chaining pattern (git submodule)
-        ├── README.md                   # Pattern quick start
-        ├── PROMPT-CHAINING.md          # Detailed pattern guide
-        ├── ARCHITECTURE.md             # Technical deep dive
-        └── src/                        # Implementation
 ```
 
-Each template is a complete, standalone repository included as a git submodule.
+Pattern templates are complete, standalone repositories:
+- [Prompt-Chaining](https://github.com/ChrisSc/prompt-chaining)
 
 ## Pattern Selection
 
